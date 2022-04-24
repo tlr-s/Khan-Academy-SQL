@@ -42,6 +42,6 @@ and released after 1990, and less than 4 minutes long.
 Note that the duration column is measured in seconds.*/
 
 SELECT title FROM songs
-	WHERE mood='epic'
-	AND released >1990
+	WHERE mood = 'epic'
+	AND released > 1990
 	AND duration < 240;
