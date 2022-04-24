@@ -30,7 +30,7 @@ FROM student_grades;
 
 /*Step 2
 The goal is a table that shows how many students have earned which letter_grade.
-'A' for grades > 90, 'B' for grades > 80, 'C' for grades > 70, and 'F' otherwise.
+'A' for grades > 90, 'B' for grades > 80, 'C' for grades > 70, and 'F' otherwise.*/
 
 SELECT COUNT(*),
     CASE
